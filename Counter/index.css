@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#counter-container{
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #00abf0;
+    height: 650px;
+    width: 1100px;
+    margin: auto;
+    margin-top: 50px;
+    border: 15px solid white;
+    border-radius: 70px;
+    font-size: 50px;
+}
+#counter-container .count {
+        margin-top: 30px;
+}
+button{
+    width: 200px; height: 100px;
+    border-radius: 50px;
+    margin-top: 50px;
+    color: wheat;
+    background-color: #252525;
+    font-size: 30px;
+}
