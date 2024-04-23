@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+*{
+    font-family: "Mooli", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+#nav-bar{
+    background-color: #252525;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+#nav-bar h3{
+    font-size: 50px;
+    color:aliceblue;
+}
+section{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #252525;
+    height: 650px;
+    width: 1100px;
+    margin: auto;
+    border: 15px solid white;
+    border-radius: 70px;
+}
+section .flipper-info{
+    position: relative;
+    display: flex;
+    background-color: #00abf0;
+    width: 400px;
+    height: 250px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    border-radius: 50px;
+}
+.flipper-info h1{
+    font-size: 40px;
+    margin-top: 20px;
+}
+.flipper-info span{
+    font-size: 40px;
+}
+button{
+    width: 140px;
+    height: 50px;
+    word-wrap: normal;
+    margin-top: 20px;
+    border-radius: 50px;
+}
