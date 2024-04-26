@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+    background: #2b2626;
+    color: #fff;
+  }
+  
+  p {
+    font-size: 6rem;
+  }
+  
+  .Coding {
+    color: rgb(236, 236, 220);
+  }
+  
+  .writed-text {
+    color: #890ec2;
+  }
